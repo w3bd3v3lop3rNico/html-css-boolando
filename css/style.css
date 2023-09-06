@@ -30,6 +30,10 @@ a {
     display: flex;
 }
 
+.align-items {
+    align-items: center;
+
+}
 .flex-wrap{
     flex-wrap: wrap;
 }
@@ -53,17 +57,27 @@ main .row {
 .position-abs{
     position: absolute;
 }
+/* main */
+.card-image-like .position-abs {
+    top: 0;
+    right: 10px;
+}
+
+.card-image-discount  {
+    bottom: 10px;
+    left: 10px;
+}
 
 
 
 
 /* debug */
 
-.debug > header {
+/* .debug > header {
     min-height: 50px;
     background-color: blue;
     color: white;
-}
+} */
 /* .debug main > .container {
     min-height: 800px;
     background-color: chocolate;
@@ -72,10 +86,11 @@ main .row {
 .debug > footer {
     background-color: blue;
     min-height: 100px;
+    color: white;
 }
 
-.debug .col-4 {
+/* .debug .col-4 {
     min-height: 100px;
     border: solid black 4px;
     background-color: aqua;
-}
+} */

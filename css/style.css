@@ -38,6 +38,24 @@ a {
     flex-basis: calc((100% *4) / 12);
 }
 
+main .row {
+    align-items: center;
+    padding: 40px 0;
+}
+
+.card img {
+    display: block;
+}
+
+.position-rel {
+    position: relative;
+}
+.position-abs{
+    position: absolute;
+}
+
+
+
 
 /* debug */
 
@@ -46,10 +64,10 @@ a {
     background-color: blue;
     color: white;
 }
-.debug > main {
+/* .debug main > .container {
     min-height: 800px;
     background-color: chocolate;
-}
+} */
 
 .debug > footer {
     background-color: blue;

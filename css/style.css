@@ -40,15 +40,27 @@ a {
 
 .col-4 {
     flex-basis: calc((100% *4) / 12);
+    padding-right: 10px;
+    padding-bottom: 20px;
+    
 }
 
 main .row {
     align-items: center;
     padding: 40px 0;
 }
+.row :nth-child(3n+0) {
+    padding-right: 0;
+}
 
 .card img {
     display: block;
+}
+figure img:last-child {
+    top: 0
+}
+.card:hover .vanish {
+	opacity: 0;
 }
 
 .position-rel {
@@ -56,6 +68,35 @@ main .row {
 }
 .position-abs{
     position: absolute;
+}
+/* header */
+header {
+    background-color: #FF6900;
+}
+
+header .row{ 
+    align-items: center;
+
+}
+header ul {
+    flex-basis: calc((100% * 3) / 12);    
+}
+.header-logo {
+    width: 200px;
+}
+header figure {
+    flex-basis: calc((100% * 6) / 12);
+    
+}
+.header-icons {
+    justify-content: flex-end;
+    gap: 20px
+}
+.row figure {
+    justify-content: center;
+}
+.header-gender {
+    gap: 10px;
 }
 /* main */
 .card-image-like .position-abs {
@@ -67,6 +108,20 @@ main .row {
     bottom: 10px;
     left: 10px;
 }
+/* footer */
+
+footer .row {
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+
+
+
 
 
 
@@ -83,11 +138,11 @@ main .row {
     background-color: chocolate;
 } */
 
-.debug > footer {
+/* .debug > footer {
     background-color: blue;
     min-height: 100px;
     color: white;
-}
+} */
 
 /* .debug .col-4 {
     min-height: 100px;

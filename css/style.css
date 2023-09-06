@@ -26,18 +26,24 @@ a {
     color: currentColor;
 }
 
-.row {
+.display-flex {
     display: flex;
-    justify-content: space-between;
 }
 
-.col {
-    display: flex;
-}
 
 /* debug */
 
-.container.debug {
+.debug > header {
     min-height: 50px;
-    background-color: aqua;
+    background-color: blue;
+    color: white;
+}
+.debug > main {
+    min-height: 800px;
+    background-color: chocolate;
+}
+
+.debug > footer {
+    background-color: blue;
+    min-height: 100px;
 }

@@ -1,3 +1,43 @@
 html {
     font-family: 'Fredoka', sans-serif;
 }
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+}
+
+/* debug */
+
+.container.debug {
+    min-height: 50px;
+    background-color: aqua;
+}
